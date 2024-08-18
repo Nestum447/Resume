@@ -19,12 +19,7 @@ with open("style.css") as f:
     
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-# Insertar el menú en la barra lateral
-st.sidebar.markdown("## Menú de Navegación")
-nav_item = st.sidebar.radio(
-    "Ir a:",
-    ("Home", "Educacion", "Experiencia de Trabajo", "Bioinformatics Tools", "Social Media")
-)
+# Insertar el menú en la 
 
 # Contenido principal basado en la selección
 
