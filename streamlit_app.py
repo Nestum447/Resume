@@ -7,7 +7,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Chanin Nantasenamat, Ph.D.
+# Nestor Carpio, Maestria Gestion Estrategica
 ##### *Resume* 
 ''')
 
