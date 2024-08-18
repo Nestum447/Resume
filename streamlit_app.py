@@ -36,7 +36,7 @@ nav_item = st.sidebar.radio(
 if nav_item == "Home":
     st.write('<div id="home"><h2>Bienvenido a la Home</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Educacion":
-    st.write('<div id="education"><h2>Sección de Educacion</h2></div>', unsafe_allow_html=True)
+    st.write('<div id="Education"><h2>Sección de Educacion</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Experiencia de Trabajo":
     st.write('<div id="experiencia"><h2>Experiencia de Trabajo</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Bioinformatics Tools":
