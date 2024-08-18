@@ -52,18 +52,6 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
-# Contenido principal
-st.write("# Bienvenido a la Home")
-st.write("# Aquí podría ir el resto del contenido")
-
-
-
-
-
-
-
-
-
 
 
 
