@@ -1,6 +1,20 @@
 import streamlit as st
 from PIL import Image
 
+st.markdown("""
+<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
+  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
+    <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#experiencia">Experiencia de Trabajo</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
+  </ul>
+</nav>
+""", unsafe_allow_html=True)
+
+
+
 with open("style.css") as f:   
     
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
