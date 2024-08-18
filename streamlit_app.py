@@ -28,7 +28,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Chanin Nantasenamat</a>
+  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Nestor Carpio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,10 +38,10 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#educacion">Educacion</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience</a>
+        <a class="nav-link" href="#Experiencia de Trabajo">Experiencia de Trabajo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#bioinformatics-tools">Bioinformatics Tools</a>
