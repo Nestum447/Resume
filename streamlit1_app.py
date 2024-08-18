@@ -62,7 +62,6 @@ st.markdown("""
      <li><a href="#top">Inicio</a></li>
 
     
-    <li><a style="text-decoration: none; color: 
     <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
    <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
