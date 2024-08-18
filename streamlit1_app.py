@@ -60,10 +60,7 @@ st.markdown("""
  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
     #<li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
      <li><a href="#">Inicio</a></li>
-
-
-    
-    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+     <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
    <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
     <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
