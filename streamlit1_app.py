@@ -40,7 +40,7 @@ st.info('''
  #     </li>
   #    <li class="nav-item">
   #      <a class="nav-link" href="#educacion">Educacion</a>
-      </li>
+    #  </li>
      # <li class="nav-item">
        # <a class="nav-link" href="#Experiencia de Trabajo">Experiencia de Work</a>
       #</li>
