@@ -49,11 +49,11 @@ st.info('''
   #    </li>
   #    <li class="nav-item">
    #     <a class="nav-link" href="#social-media">Social Media</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-""", unsafe_allow_html=True)
+    #  </li>
+    #</ul>
+  #</div>
+#</nav>
+#""", unsafe_allow_html=True)
 
 st.markdown("""
 <nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
