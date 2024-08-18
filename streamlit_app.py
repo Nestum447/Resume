@@ -97,17 +97,6 @@ st.markdown("""
 
 
 
-st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Nestor Carpio</a>
-  
-</nav>
-""", unsafe_allow_html=True)
-
-
-
-
-
 
 
 
