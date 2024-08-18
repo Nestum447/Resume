@@ -19,6 +19,32 @@ with open("style.css") as f:
     
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
+# Insertar el menú en la barra lateral
+st.sidebar.markdown("## Menú de Navegación")
+nav_item = st.sidebar.radio(
+    "Ir a:",
+    ("Home", "Educacion", "Experiencia de Trabajo", "Bioinformatics Tools", "Social Media")
+)
+
+# Contenido principal basado en la selección del menú
+if nav_item == "Home":
+    st.write("# Bienvenido a la Home")
+elif nav_item == "Educacion":
+    st.write("# Sección de Educación")
+elif nav_item == "Experiencia de Trabajo":
+    st.write("# Experiencia de Trabajo")
+elif nav_item == "Bioinformatics Tools":
+    st.write("# Herramientas de Bioinformática")
+elif nav_item == "Social Media":
+    st.write("# Redes Sociales")
+
+
+
+
+
+
+
+
 
 
 
