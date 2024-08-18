@@ -7,17 +7,7 @@ with open("style.css") as f:
 
 
 
-st.markdown("""
-<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
-  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
-    <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
-    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
-    <li><a style="text-decoration: none; color: white;" href="#experiencia">Experiencia de Trabajo</a></li>
-    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
-    <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
-  </ul>
-</nav>
-""", unsafe_allow_html=True)
+
 
 
 
@@ -43,6 +33,23 @@ st.info('''
 # Navigation
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
+
+
+st.markdown("""
+<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
+  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
+    <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#experiencia">Experiencia de Trabajo</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
+  </ul>
+</nav>
+""", unsafe_allow_html=True)
+
+
+
+
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
@@ -219,3 +226,17 @@ txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
 txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
 txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
 txt2('Publons', 'https://publons.com/a/303133/')
+
+
+
+st.markdown("""
+<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
+  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
+    <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#experiencia">Experiencia de Trabajo</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
+  </ul>
+</nav>
+""", unsafe_allow_html=True)
