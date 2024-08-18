@@ -26,17 +26,44 @@ nav_item = st.sidebar.radio(
     ("Home", "Educacion", "Experiencia de Trabajo", "Bioinformatics Tools", "Social Media")
 )
 
+# Contenido principal basado en la selección
+
+
+
+# Menú de navegación en la barra lateral
+st.sidebar.markdown("## Menú de Navegación")
+nav_item = st.sidebar.radio(
+    "Ir a:",
+    ("Home", "Educacion", "Experiencia de Trabajo", "Bioinformatics Tools", "Social Media")
+)
+
 # Contenido principal basado en la selección del menú
 if nav_item == "Home":
-    
+    st.write('<div id="home"><h2>Bienvenido a la Home</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Educacion":
-    
+    st.write('<div id="educacion"><h2>Sección de Educación</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Experiencia de Trabajo":
-    st.write("# Experiencia de Trabajo")
+    st.write('<div id="experiencia"><h2>Experiencia de Trabajo</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Bioinformatics Tools":
-    st.write("# Herramientas de Bioinformática")
+    st.write('<div id="bioinformatics-tools"><h2>Herramientas de Bioinformática</h2></div>', unsafe_allow_html=True)
 elif nav_item == "Social Media":
-    st.write("# Redes Sociales")
+    st.write('<div id="social-media"><h2>Redes Sociales</h2></div>', unsafe_allow_html=True)
+
+# Usar JavaScript para desplazarse a la sección correspondiente después de la selección
+scroll_script = f"""
+    <script>
+        var element = document.getElementById('{nav_item.lower().replace(" ", "-")}');
+        if (element) {{
+            element.scrollIntoView({{behavior: 'smooth'}});
+        }}
+    </script>
+    """
+st.markdown(scroll_script, unsafe_allow_html=True)
+
+
+
+
+
 
 
 # Insertar el menú superior
@@ -135,7 +162,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## Educacion
 ''')
 
 txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
@@ -156,7 +183,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience
+## experiencia de trabajo
 ''')
 
 txt('**Head, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
