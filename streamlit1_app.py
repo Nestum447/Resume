@@ -17,7 +17,7 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Mejora y Desarrollo de Procesos, con mas de 10 años de experiencia en Cadena de Suministro, Sistemas Informaticos, Financieros y Administrativos. 
-- Desarrollo de Proyectos en toda la cadena de Empresa generando mejoras en el desarrollo organizacional por medio del uso de la tecnologia, utilizando metodologias de cambio cultural, Lean y Agiles
+- Desarrollo de Proyectos en toda la cadena de Empresa generando mejoras en el desarrollo organizacional por medio del uso de la tecnologia, y metodologias de cambio organizacional, Lean y Agiles
 - Desarrollo de mas de 25 Implementaciones, Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Screamlit, Analisis Estadistico, ML
 ''')
 
@@ -59,7 +59,7 @@ st.markdown("""
 <nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
     <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
-    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#Educacion">Educacion</a></li>
    <li><a style="text-decoration: none; color: white;" href="#experiencia">Experiencia de Trabajo</a></li>
    <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
     <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
@@ -107,7 +107,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## Educacion
 ''')
 
 txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
@@ -128,7 +128,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience
+## Experiencia de trabajo
 ''')
 
 txt('**Head, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
