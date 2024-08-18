@@ -1,7 +1,12 @@
 import streamlit as st
 from PIL import Image
 
-with open("style.css") as f:
+with open("style.css") as f:   
+    
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+
+
 st.markdown("""
 <nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
   <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
@@ -15,12 +20,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
-
-
-    
-    
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
 # Header 
