@@ -30,12 +30,12 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
   <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Nestor Carpio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
+#  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+#    <span class="navbar-toggler-icon"></span>
+#  </button>
+#  <div class="collapse navbar-collapse" id="navbarNav">
+#    <ul class="navbar-nav">
+#      <li class="nav-item active">
    #     <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
