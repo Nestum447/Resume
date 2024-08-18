@@ -8,7 +8,7 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Nestor Carpio, Maestria Gestion Estrategica
-##### *Resume* 
+##### *Curriculum* 
 ''')
 
 image = Image.open('dp.png')
@@ -16,9 +16,9 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Experienced Educator, Researcher and Administrator with almost twenty years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
-- Strong verbal and written communication skills as demonstrated by extensive participation as invited speaker at `10` conferences as well as publishing 149 research articles.
-- Strong track record in scholarly research with H-index of `32` and total citation of 3200+.
+- Mejora y Desarrollo de Procesos, con mas de 10 años de experiencia en Cadena de Suministro, Sistemas Informaticos, Financieros y Administrativos. 
+- Desarrollo de Proyectos en toda la cadena de Empresa generando mejoras en el desarrollo organizacional por medio del uso de la tecnologia, utilizando metodologias de cambio cultural, Lean y Agiles
+- Desarrollo de mas de 25 Implementaciones, Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Screamlit, Analisis Estadistico, ML
 ''')
 
 #####################
