@@ -28,9 +28,9 @@ nav_item = st.sidebar.radio(
 
 # Contenido principal basado en la selección del menú
 if nav_item == "Home":
-    st.write("# Bienvenido a la Home")
+    
 elif nav_item == "Educacion":
-    st.write("# Sección de Educación")
+    
 elif nav_item == "Experiencia de Trabajo":
     st.write("# Experiencia de Trabajo")
 elif nav_item == "Bioinformatics Tools":
