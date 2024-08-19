@@ -18,7 +18,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Mejora y Desarrollo de Procesos, con mas de 10 años de experiencia en Cadena de Suministro, Sistemas Informaticos, Financieros y Administrativos. 
 - Desarrollo de Proyectos en toda la cadena de Empresa generando mejoras en el desarrollo organizacional por medio del uso de la tecnologia, y metodologias de cambio organizacional, Lean y Agiles
-- Desarrollo de mas de 25 Implementaciones, Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Screamlit, Analisis Estadistico, ML
+- Desarrollo de mas de 25 Implementaciones, Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Streamlit, Analisis Estadistico, ML
 ''')
 
 ####################
