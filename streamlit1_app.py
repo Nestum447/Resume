@@ -18,7 +18,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Mejora y Desarrollo de Procesos, con mas de 10 años de experiencia en Cadena de Suministro, Sistemas Informaticos, Financieros y Administrativos. 
 - Desarrollo de Proyectos en toda la cadena de Empresa generando mejoras en el desarrollo organizacional por medio del uso de la tecnologia, y metodologias de cambio organizacional, Lean y Agiles
-- Desarrollo de mas de 25 Implementaciones, Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Streamlit, Analisis Estadistico, ML
+- Desarrollo de Proyectos de mejora y tecnologia utilizando herramientas y plataformas de sistemas en VBA, SQL, POO, Pyton, Streamlit, Analisis Estadistico, ML
 ''')
 
 ####################
@@ -118,20 +118,20 @@ st.markdown('''
 ## Educacion
 ''')
 
-txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
-'2002-2006')
+txt('**Maestria en Gestion Estrategica** (Empresas), *Universidad Catolica*, El Salvador',
+'2014-2017')
 st.markdown('''
-- GPA: `3.89`
-- Research thesis entitled `Computer-aided molecular design for biological and chemical applications : Quantum chemical and machine learning approach`.
-- Received Royal Golden Jubilee Ph.D. Scholarship of `2.152 million THB` covering tuition and stipend.
-- Thesis awarded `1st` Prize by the National Research Council of Thailand.
+- GPA: `8.75`
+- Tesis, Investigacion `El papel de la responsabilidad Social en las empresas: `.
+- .
+- .
 ''')
 
-txt('**Bachelors of Science** (Biological Science), *Mahidol University International College*, Thailand',
-'1998-2002')
+txt('**Licenciatura Administracion de Empresas** (Gestion Estrategica), *Universidad Modular*, El Salvador',
+'2005-2010')
 st.markdown('''
 - GPA: `3.65`
-- Graduated with First Class Honors.
+- Preespecializacion Gestion de la Calidad, Recursos Humanos, Desarrollo Gerencia.
 ''')
 
 #####################
