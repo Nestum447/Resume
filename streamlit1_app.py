@@ -131,7 +131,8 @@ txt('**Licenciatura Administracion de Empresas** (Gestion Estrategica), *Univers
 st.markdown('''
 
 - Preespecializacion Gestion de la Calidad, Recursos Humanos, Desarrollo Gerencial.
-- Certificacion Black Belt En Ingenieria de Procesos, *Green Consulting incorporated*, US','2007-2008
+
+- Certificacion Black Belt En Ingenieria de Procesos, *Green Consulting incorporated*, US', ' 2007-2008
 ''')
 
 #####################
