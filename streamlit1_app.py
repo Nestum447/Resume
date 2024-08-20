@@ -123,15 +123,15 @@ txt('**Maestria en Gestion Estrategica** (Empresas), *Universidad Catolica*, El 
 st.markdown('''
 - GPA: `8.75`
 - Tesis, Investigacion `El papel de la responsabilidad Social en las empresas: `.
-- .
-- .
+
 ''')
 
 txt('**Licenciatura Administracion de Empresas** (Gestion Estrategica), *Universidad Modular*, El Salvador',
 '2005-2010')
 st.markdown('''
-- GPA: `3.65`
-- Preespecializacion Gestion de la Calidad, Recursos Humanos, Desarrollo Gerencia.
+
+- Preespecializacion Gestion de la Calidad, Recursos Humanos, Desarrollo Gerencial.
+- Certificacion Black Belt En Ingenieria de Procesos, *Green Consulting incorporated*, US','2007-2008
 ''')
 
 #####################
