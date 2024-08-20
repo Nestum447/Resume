@@ -61,7 +61,7 @@ st.markdown("""
     #<li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
      <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
    <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
-   <li><a style="text-decoration: none; color: white;" href="#herramientas informaticas-tools">Herramientas Informaticas </a></li>
+   <li><a style="text-decoration: none; color: white;" href="#herramientas-informaticas">Herramientas Informaticas </a></li>
     <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
   </ul>
 </nav>
