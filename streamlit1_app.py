@@ -61,7 +61,7 @@ st.markdown("""
     #<li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
      <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
    <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
-   <li><a style="text-decoration: none; color: white;" href="#bioinformatics-tools">Bioinformatics Tools</a></li>
+   <li><a style="text-decoration: none; color: white;" href="#herramientas informaticas-tools">Herramientas Informaticas </a></li>
     <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
   </ul>
 </nav>
@@ -195,7 +195,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Bioinformatics Tools
+## Herramientas Informaticas
 ''')
 txt4('ABCpred', 'A web server for the discovery of acetyl- and butyryl-cholinesterase inhibitors', 'http://codes.bio/abcpred/')
 txt4('AutoWeka', 'An automated data mining software based on Weka', 'http://www.mt.mahidol.ac.th/autoweka/')
