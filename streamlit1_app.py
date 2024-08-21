@@ -75,9 +75,7 @@ st.info('''
 #</nav>
 #""", unsafe_allow_html=True)
 
-import streamlit as st
 
-st.markdown("""
 
 import streamlit as st
 
@@ -99,7 +97,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    background-color: #16A2CB;
 }
 
 /* Estilos para dispositivos móviles */
@@ -119,6 +116,7 @@ body {
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 
 
