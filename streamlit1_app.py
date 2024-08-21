@@ -63,17 +63,58 @@ st.info('''
 #</nav>
 #""", unsafe_allow_html=True)
 
+#st.markdown("""
+#<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
+ #<ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
+    #<li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
+     #<li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+   #<li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
+   #<li><a style="text-decoration: none; color: white;" href="#herramientas-informaticas">Herramientas Informaticas </a></li>
+   # <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
+ # </ul>
+#</nav>
+#""", unsafe_allow_html=True)
+
+import streamlit as st
+
 st.markdown("""
 <nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
- <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0;">
-    #<li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
-     <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
-   <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
-   <li><a style="text-decoration: none; color: white;" href="#herramientas-informaticas">Herramientas Informaticas </a></li>
+  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0; flex-wrap: wrap;">
+    <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
+    <li><a style="text-decoration: none; color: white;" href="#herramientas-informaticas">Herramientas Informaticas</a></li>
     <li><a style="text-decoration: none; color: white;" href="#social-media">Social Media</a></li>
   </ul>
 </nav>
+
+<style>
+/* Estilos generales */
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+</style>
 """, unsafe_allow_html=True)
+
+
+
+
+
+
 
 
 st.markdown('<a href="#top" style="text-decoration: none;">Inicio</a>', unsafe_allow_html=True)
