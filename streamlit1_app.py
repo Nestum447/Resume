@@ -80,11 +80,11 @@ import streamlit as st
 st.markdown("""
 <nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000; padding: 10px; overflow-x: auto;">
   <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: flex-start; flex-wrap: nowrap; width: max-content;">
-    <li><a style="text-decoration: none; color: white; margin-right: 20px;" href="/">Home</a></li>
-    <li><a style="text-decoration: none; color: white; margin-right: 20px;" href="#educacion">Educacion</a></li>
-    <li><a style="text-decoration: none; color: white; margin-right: 20px;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
-    <li><a style="text-decoration: none; color: white; margin-right: 20px;" href="#herramientas-informaticas">Herramientas Informaticas</a></li>
-    <li><a style="text-decoration: none; color: white; margin-right: 20px;" href="#social-media">Social Media</a></li>
+    <li><a style="text-decoration: none; color: white; margin-right: 10px;" href="/">Home</a></li>
+    <li><a style="text-decoration: none; color: white; margin-right: 10px;" href="#educacion">Educacion</a></li>
+    <li><a style="text-decoration: none; color: white; margin-right: 10px;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
+    <li><a style="text-decoration: none; color: white; margin-right: 10px;" href="#herramientas-informaticas">Herramientas Informaticas</a></li>
+    <li><a style="text-decoration: none; color: white; margin-right: 10px;" href="#social-media">Social Media</a></li>
   </ul>
 </nav>
 
