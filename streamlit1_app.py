@@ -112,7 +112,7 @@ nav ul {
 
 /* Asegura que el contenido no quede oculto debajo del menú */
 body {
-    padding-top: 80px; /* Ajusta el valor según la altura de tu menú */
+    padding-top: 120px; /* Ajusta el valor según la altura de tu menú */
 }
 </style>
 """, unsafe_allow_html=True)
