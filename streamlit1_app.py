@@ -75,7 +75,6 @@ st.info('''
 #</nav>
 #""", unsafe_allow_html=True)
 
-
 import streamlit as st
 
 st.markdown("""
@@ -90,36 +89,26 @@ st.markdown("""
 </nav>
 
 <style>
-/* Estilos generales para el menú */
-nav ul {
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin-bottom: 10px;
-    }
-}
-
 /* Asegura que el contenido no quede oculto debajo del menú */
 body {
     padding-top: 80px; /* Ajusta el valor según la altura de tu menú */
 }
 
-/* Añade un espacio superior para evitar que el contenido quede cubierto al hacer scroll */
+/* Añade un pequeño margen superior a las secciones */
 section {
-    scroll-margin-top: 120px; /* Ajusta este valor según la altura de tu menú */
+    margin-top: 20px; /* Ajusta este valor para mover las secciones hacia abajo */
 }
 
 """, unsafe_allow_html=True)
+
+
+
+
+    
+    
+    
+
+
 
 
     
