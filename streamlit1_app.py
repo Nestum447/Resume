@@ -116,7 +116,7 @@ body {
 
 /* Añade un espacio superior para evitar que el contenido quede cubierto al hacer scroll */
 section {
-    scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu menú */
+    scroll-margin-top: 120px; /* Ajusta este valor según la altura de tu menú */
 }
 
 """, unsafe_allow_html=True)
