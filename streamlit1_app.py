@@ -91,12 +91,12 @@ st.markdown("""
 <style>
 /* Asegura que el contenido no quede oculto debajo del menú */
 body {
-    padding-top: 80px; /* Ajusta el valor según la altura de tu menú */
+    padding-top: 60px; /* Ajusta el valor según la altura de tu menú */
 }
 
 /* Añade un pequeño margen superior a las secciones */
 section {
-    margin-top: 20px; /* Ajusta este valor para mover las secciones hacia abajo */
+    margin-top: 10px; /* Ajusta este valor para mover las secciones hacia abajo */
 }
 
 """, unsafe_allow_html=True)
