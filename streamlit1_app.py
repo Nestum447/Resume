@@ -78,8 +78,12 @@ st.info('''
 import streamlit as st
 
 st.markdown("""
-<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000;">
-  <ul style="list-style-type: none; padding: 10px; display: flex; justify-content: space-around; margin: 0; flex-wrap: wrap;">
+
+import streamlit as st
+
+st.markdown("""
+<nav style="background-color: #16A2CB; position: fixed; top: 0; width: 100%; z-index: 1000; padding: 10px;">
+  <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: space-around; flex-wrap: wrap;">
     <li><a style="text-decoration: none; color: white;" href="/">Home</a></li>
     <li><a style="text-decoration: none; color: white;" href="#educacion">Educacion</a></li>
     <li><a style="text-decoration: none; color: white;" href="#experiencia-de-trabajo">Experiencia de Trabajo</a></li>
@@ -89,12 +93,13 @@ st.markdown("""
 </nav>
 
 <style>
-/* Estilos generales */
+/* Estilos generales para el menú */
 nav ul {
-    padding: 10px;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     margin: 0;
+    background-color: #16A2CB;
 }
 
 /* Estilos para dispositivos móviles */
@@ -107,8 +112,15 @@ nav ul {
         margin-bottom: 10px;
     }
 }
+
+/* Asegura que el contenido no quede oculto debajo del menú */
+body {
+    padding-top: 60px; /* Ajusta el valor según la altura de tu menú */
+}
 </style>
 """, unsafe_allow_html=True)
+
+
 
 
 
