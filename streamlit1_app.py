@@ -76,7 +76,6 @@ st.info('''
 #""", unsafe_allow_html=True)
 
 
-
 import streamlit as st
 
 st.markdown("""
@@ -114,8 +113,39 @@ nav ul {
 body {
     padding-top: 80px; /* Ajusta el valor según la altura de tu menú */
 }
+
+/* Añade un espacio superior para evitar que el contenido quede cubierto al hacer scroll */
+section {
+    scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu menú */
+}
 </style>
+
+<!-- Secciones con identificadores para el href -->
+<section id="educacion">
+    <h2>Educacion</h2>
+    <p>Aquí va el contenido sobre la educación...</p>
+</section>
+
+<section id="experiencia-de-trabajo">
+    <h2>Experiencia de Trabajo</h2>
+    <p>Aquí va el contenido sobre la experiencia de trabajo...</p>
+</section>
+
+<section id="herramientas-informaticas">
+    <h2>Herramientas Informaticas</h2>
+    <p>Aquí va el contenido sobre las herramientas informáticas...</p>
+</section>
+
+<section id="social-media">
+    <h2>Social Media</h2>
+    <p>Aquí va el contenido sobre las redes sociales...</p>
+</section>
 """, unsafe_allow_html=True)
+
+
+    
+        
+
 
 
 
