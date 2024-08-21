@@ -1,6 +1,13 @@
 import streamlit as st
 from PIL import Image
+import streamlit.components.v1 as components
+
+
+# Insertar HTML personalizado
+components.html("""
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+""", height=0, width=0)
+
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
