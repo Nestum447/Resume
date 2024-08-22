@@ -15,7 +15,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Nestor Carpio, Maestria Gestion Estrategica
+# Nestor Carpio, Maestria en Gestion Estrategica
 ##### *Curriculum* 
 ''')
 
