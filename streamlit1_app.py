@@ -203,7 +203,7 @@ st.markdown('''
 ## Experiencia de trabajo
 ''')
 
-txt('**Jefe Logistica, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
+txt('**Jefe Logistica, Sistemas de Inventario**, Finanzas Corporativas, Fruit Inc Balsamar, El Salvador',
 '2009-2023')
 st.markdown('''
 - Managing a Center of `10` professors, researchers and students to ensure KPIs are strategically achieved namely to publish at least `20+` research publications annually. 
