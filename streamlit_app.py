@@ -181,7 +181,7 @@ st.markdown('''
 ## experiencia de trabajo
 ''')
 
-txt('**Head, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
+txt('**Jefe de Logistica, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
 '2011-2021')
 st.markdown('''
 - Managing a Center of `10` professors, researchers and students to ensure KPIs are strategically achieved namely to publish at least `20+` research publications annually. 
