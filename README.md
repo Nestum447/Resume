@@ -1,6 +1,9 @@
 # resume-app
 # 📑 Curriculum Vitae Interactivo en Streamlit
 
+Sitio Web
+https://resume-wcguq3du25zzwaxjdnwnpb.streamlit.app/
+
 Aplicación desarrollada en **Streamlit** que muestra un **Curriculum Vitae (CV) interactivo** con navegación por secciones, integración de estilos CSS personalizados y menús fijos de navegación.  
 
 El objetivo es presentar de forma profesional la información académica, experiencia laboral, proyectos y redes sociales de una persona, todo dentro de una interfaz web moderna y responsiva.  
