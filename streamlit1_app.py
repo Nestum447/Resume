@@ -196,6 +196,13 @@ st.markdown('''
 - Preespecializacion Gestion de la Calidad, Recursos Humanos, Desarrollo Gerencial.
 
 - Certificacion Black Belt En Ingenieria de Procesos, *Green Consulting incorporated*, US', ' 2007-2008
+- Repositorio Github, Streamlit: https://share.streamlit.io/user/nestum447
+- Mapeo, Diseño y Mejora de Procesos Logisticos, Financieros, Operativos y Tecnologicos
+- Diseño de Herramientas de Calidad, Six Sigma, Procesos empresariales
+- Implementacion de Sistemas de mejora ERP, Analisis Estadisticos de mejora, Dashboards Empresariales, Tableros, KPIS
+-Desarrollo de Apps y Repositorios en Git Hub y Streamlit, Consulta de Informacion, Bases de datos, Predicciones, Probabilidades, Sitios Web Personal, Empresarial, Objetos Educativos,Graficas.
+- Desarrollo de modulos Python, VS Code, PIP, NumPy, Pandas, Dataframes CSV, JSON, basic Machine Learning scikit-learn, Matplotlib, y Seaborn
+Desarrollo modulos mejora de tareas en Visual Basic, Bases de Datos
 ''')
 
 #####################
