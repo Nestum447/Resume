@@ -274,7 +274,10 @@ st.markdown('''
 st.markdown('''
 ## Herramientas Informaticas
 ''')
-txt4('ABCpred', 'A web server for the discovery of acetyl- and butyryl-cholinesterase inhibitors', 'http://codes.bio/abcpred/')
+txt4('Streamlit
+Pillow (PIL) – para mostrar imágenes
+HTML + CSS – para dar formato al menú y estilos
+JavaScript –', ' Aplicación desarrollada en Streamlit que muestra un Curriculum Vitae (CV) interactivo con navegación por secciones, integración de estilos CSS personalizados y menús fijos de navegación. ', 'https://resume-wcguq3du25zzwaxjdnwnpb.streamlit.app/  ')
 txt4('AutoWeka', 'An automated data mining software based on Weka', 'http://www.mt.mahidol.ac.th/autoweka/')
 txt4('ACPred', 'A computational tool for the prediction and analysis of anticancer peptides','http://codes.bio/acpred/')
 txt4('BioCurator', 'A web server for curating ChEMBL bioactivity data', 'http://codes.bio/biocurator/')
